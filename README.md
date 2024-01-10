@@ -1,3 +1,3 @@
-✨[doyouwannagooutwithme.com](http://doyouwannagooutwithme.com) 
+✨[doyouwannagooutwithme.com](https://doyouwannagooutwithme-five.vercel.app/) 
 
-A website to invite your lover for a date 🥰
+When you're an introvert and you want to ask someone out, consider using this creative approach to pop the question.
