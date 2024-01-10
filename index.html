@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+        
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">Do you wanna go out with me?</h1>
+            </div>
+            <div class="gif_container">
+                <img src="https://media.giphy.com/media/SvvfK2dco188Wk4ZTq/giphy.gif" alt="Cute animated illustration">
+            </div>
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPageyes()">Yes</button>
+                <button class="btn" id = "noButton" onclick="nextPageno()">No</button>
+                <script>
+                    function nextPageyes() {
+                        window.location.href = "yes.html";
+                    }
+
+                    function nextPageno() {
+                        window.location.href = "no.html";
+                    }
+                    
+                </script> 
+            </div>
+        </div>
+       
+    </body> 
+</html>

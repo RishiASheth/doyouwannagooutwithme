@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reasns to date me</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #f0f0f0;
+        }
+
+        #gif-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+        }
+
+        #gif-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="gif-container">
+        <img src="reasonstodateme.gif" alt="Playing GIF">
+    </div>
+
+    <script>
+        // Add the URL of your GIF
+        var gifUrl = "reasonstodateme.gif";
+
+        // Set the time (in milliseconds) for how long the GIF should play before redirecting
+        var gifPlayTime = 19990; // 5000 milliseconds = 5 seconds
+
+        // Load the GIF
+        var gifContainer = document.getElementById("gif-container");
+        var gifImage = new Image();
+        gifImage.src = gifUrl;
+        gifImage.onload = function () {
+            gifContainer.style.display = "block";
+
+            // After the specified time, redirect to the next page
+            setTimeout(function () {
+                window.location.href = "secondchance.html";
+            }, gifPlayTime);
+        };
+
+    </script>
+
+</body>
+</html>
